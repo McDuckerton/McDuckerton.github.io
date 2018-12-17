@@ -3,6 +3,7 @@ html, body {
     font-family: "Montserrat", sans-serif;
     margin: 0 auto;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 #navbar {
@@ -38,15 +39,45 @@ html, body {
 #about-me {
 
     height: 100vh;
+    margin: 0 auto;
     margin-top: 50vh;
+    padding: 25px;
+    
+}
+
+#projects {
+
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: 50vh;
+    padding: 25px;
 
 }
 
+
+#contact {
+
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: 50vh;
+    padding: 25px;
+}
 #projects a {
 
     display: block;
     text-decoration: none;
     color: black;
+    
+    
 
+}
+
+#contact a {
+
+    display: block;
+    text-decoration: none;
+    color: black;
+    
+    
 }
 
