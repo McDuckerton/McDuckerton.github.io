@@ -1,7 +1,12 @@
 html, body {
 
     font-family: "Montserrat", sans-serif;
-    background-color: lightblue;
-    color: black;
+    margin: 0 auto;
 
+}
+
+nav ul {
+
+    list-style-type: none;
+    
 }
