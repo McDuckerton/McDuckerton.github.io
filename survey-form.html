@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+
+    <head>
+
+        <title>Occupation Survey</title>
+        <link rel="stylesheet" href="survey-form.css" type="text/css">
+    
+    </head>
+
+    <body>
+
+         <div id="main-container">
+        
+            <h1 id="title">Occupation Survey</h1>
+            
+            <p id="description">This survey is going to ask a few questions about favorite Operating System, Occupation, and Language Preference.<br>  There will also be a place at the end to give random comments and thoughts. Enjoy!</p>
+            
+            <div id="form-container">
+            
+                <form id="survey-form">
+                    
+                    <div class="form-row">
+                    
+                        <div class="left-label">
+                            
+                            <label id="name-label" name="name">Enter your name*</label>
+                        
+                        </div>
+                        
+                        <div class="right-input">
+                            
+                            <input autofocus class="input-box" type="text" placeholder="Enter your name" id="name" required>
+                        
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="form-row">
+                    
+                        <div class="left-label">
+                        
+                            <label id="email-label" name="email">Enter your email*</label>
+                        
+                        </div>
+                        
+                        <div class="right-input">
+                        
+                            <input class="input-box" type="email" placeholder="Enter your email address" id="email" required>
+                        
+                        </div>
+                        
+                    </div>	
+                    
+                    <div class="form-row">
+                    
+                        <div class="left-label">
+                    
+                            <label id="number-label" name="age">Enter your age*</label>						
+                        
+                        </div>
+                        
+                        <div class="right-input">
+                            
+                            <input type="number" class="input-box"  placeholder="Enter your age" min="1" max="102" id="number" name="age" required>
+                        
+                        </div>
+                        
+                    </div>	
+                    
+                    <div class="form-row">
+                        
+                        <div class="left-label">
+                        
+                            <label id="radio-menu" name="os-picker">Select your current role*</label>
+                        
+                        </div>
+                        
+                        <div class="right-input">
+                            
+                            <ul>
+                            
+                                <legend class="legend">Choose one*</legend>
+                                
+                                <li><label><input checked name="occupation" type="radio" value="1">Design (UX/UI)</label></li>
+                                
+                                <li><label><input name="occupation" type="radio" value="2">Full Stack Developer</label></li>
+                                
+                                <li><label><input name="occupation" type="radio" value="3">Security Engineer</label></li>
+                                
+                                <li><label><input name="occupation" type="radio" value="4">Network Engineer</label></li>
+                                
+                                <li><label><input name="occupation" type="radio" value="5">Product Manager</label></li>
+                                    
+                            </ul>	
+                        
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="form-row">
+                        
+                        <div class="left-label">
+                        
+                            <label id="dropdown-menu" name="os-picker">Select your preferred operating system*</label>
+                        
+                        </div>
+                        
+                        <div class="right-input">
+                        
+                            <select id="dropdown" required>
+                                
+                                <option disabled>Select one:</option>
+                                <option>Windows 10</option>
+                                <option>Windows 7</option>
+                                <option>macOS</option>
+                                <option>Linux-flavored</option>
+                                <option>ChromeOS</option>
+                                
+                            </select>	
+                        
+                        </div>
+                        
+                    </div>
+                                        
+                    <div class="form-row">
+                    
+                        <div class="left-label">	
+                            
+                            <label id="checkboxes">Select all languages that interest you*</label>
+                        
+                        </div>
+                        
+                        <div class="right-input">
+                        
+                            <ul>
+                            
+                                <legend class="legend">Choose atleast one*</legend>
+                            
+                                <li><label><input name="checkbox" type="checkbox" value="1">Java</label></li>
+                                
+                                <li><label><input name="checkbox" type="checkbox" value="2">C#</label></li>
+                                
+                                <li><label><input name="checkbox" type="checkbox" value="3">Python</label></li>
+                                
+                                <li><label><input name="checkbox" type="checkbox" value="4">Bash</label></li>
+                                
+                                <li><label><input name="checkbox" type="checkbox" value="5">Javascript</label></li>
+                                
+                                <li><label><input name="checkbox" type="checkbox" value="6">Swift</label></li>
+                        
+                            </ul>
+                        
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="form-row">
+                    
+                        <div class="left-label">
+                    
+                            <label id="textarea">Enter any additional comments here</label>
+                        
+                        </div>
+                        
+                        <div class="right-input">
+                        
+                            <textarea placeholder="Enter your random thoughts..." class="textarea-box"></textarea>
+                        
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="form-row">
+                    
+                        <div id="buttons">
+                    
+                            <button id="submit" type="submit">Submit!</button>
+                            <button id="reset" type="reset">Reset!</button>	
+                        
+                        </div>
+                    
+                    </div>
+                    
+                </form>
+
+            </div>
+
+        </div>
+
+    </body>
+
+</html>

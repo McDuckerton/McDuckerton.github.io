@@ -1,0 +1,67 @@
+html,body{
+    font-family:"Verdana", sans-serif;
+    text-align:center;
+    min-width:260px;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: auto;
+    background-image: url(https://images.freeimages.com/images/large-previews/a9e/music-1421425.jpg);
+    background-repeat: repeat;	
+}
+
+#main{
+    margin:75px auto;
+    padding:15px;
+    border:0px solid;
+    border-radius:5px;
+    background:#F5D0A9;
+}
+img{
+    max-width: 100%; 
+    display: block; 
+    height: auto;
+    margin: auto;
+}
+#img-div{
+    margin:-5px;
+    margin-top:20px;
+    width:100%;
+    border:5px solid white;
+    background:white;
+}
+#img-caption{
+    margin:15px;
+    font-style: italic;
+}
+
+#tribute-info {
+    margin: 100 auto;
+}
+
+#headline {
+    margin-top:50px;
+    text-align:center;
+}
+
+ul {
+    list-style-type: square;
+    max-width: 340px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+li {
+    margin: 10px;
+}
+
+#sub-headline {
+    max-width: 500;
+    text-align: justify;
+    margin: 0 auto;
+    padding: -15px;
+}
+
+a:hover {
+    color:#FF00FF;
+}

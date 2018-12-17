@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+html, body {
+		
+		font-family: "Ubuntu", sans-serif;
+		background-color: #A9D0F5;
+		min-width: 320px;
+	}
+	
+	#title, #description {
+	
+		text-align: center;
+    text-shadow: 2px 2px 6px black;
+	
+	}
+	
+
+	
+	#survey-form {
+	
+		
+		background-color: #FAFAFA;
+		margin: 0 auto;
+		border-radius: 4px;
+		width: 75%;
+		max-width: 900px;
+		padding: 10px;
+		padding-top: 20px;
+    box-shadow: 2px 2px 5px black;
+		
+	}
+	
+	#dropdown {
+	
+		height: 30px;
+		width: 150px;
+		margin: 12px;
+		border: 1px solid #E6E6E6;
+		border-radius: 3px;
+		
+	}
+	
+	#submit	{
+		
+		border: 1px solid #e8e8e8;
+		border-radius: 3px;
+		background-color: #f2a476;
+		font-weight: bold;
+		height: 40px;
+		width: 100px;
+		font-size: 20px;
+		align: center;
+	
+	}
+		
+	#submit:hover {
+		
+		background-color: #97f4a1;
+		cursor: pointer;
+		transition: 0.25s ease-in-out;
+		
+	}	
+
+  #reset	{
+		
+		border: 1px solid #e8e8e8;
+		border-radius: 3px;
+		background-color: #f2a476;
+		font-weight: bold;
+		height: 40px;
+		width: 100px;
+		font-size: 20px;
+		align: center;
+	
+	}
+	
+	#reset:hover {
+		
+		background-color: #97f4a1;
+		cursor: pointer;
+		transition: 0.25s ease-in-out;
+		
+	}	
+	
+	
+	 ul {
+		
+		list-style: none;
+	
+	}
+	
+	.form-row {
+	
+		display: block;
+		
+		
+	
+	}
+	
+	.left-label {
+		
+		display: inline-block;
+		text-align: right;
+		width: 40%;
+		padding: 5px;
+	    vertical-align: top;
+        margin-top: 10px;
+	    
+	}
+	
+	.right-input {
+	
+		display: inline-block;
+		text-align: left;
+		width: 48%;
+		vertical-align: middle;
+		
+	}
+	
+	.input-box {
+	
+		height: 20px;
+		width: 300px;
+		padding: 5px;
+		margin: 12px;
+		border: 1px solid #E6E6E6;
+		border-radius: 3px;
+	
+	}
+	
+	.textarea-box {
+	
+		height: 40px;
+		max-width: 300px;
+		width: 100%;
+		padding: 5px;
+		margin: 12px;
+		border: 1px solid #E6E6E6;
+		border-radius: 3px;
+    font-family: "Ubuntu", sans serif;
+	
+	}
+	
+	
+	.legend {
+	
+		position: relative;
+		right: 25px;
+		padding-bottom: 6px;
+	
+	}
+	
+	#buttons {
+	
+		margin: 0 auto;
+		text-align: center;
+	
+	}
+	
+	@media screen and (max-width: 900px) {
+	
+		.input-box {
+			
+			width: 80%;
+		}
+		
+		select {
+    
+			width: 90%;
+		
+		}
+	
+	}
+
+	@media screen and (max-width: 520px) {
+  
+		.left-label {
+    
+			width: 100%;
+			text-align: left;
+	
+		}
+  
+		.right-input {
+   
+			width: 80%;
+			float: left;
+  
+		}
+		
+		.input-box {
+    
+			width: 100%;
+		
+		}
+  
+		select {
+    
+			width: 100%;
+		
+		}
+		
+		#survey-form {
+      
+		  width: 95%
+			height: 100%;
+		
+		}
+	
+	}
