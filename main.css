@@ -3,14 +3,22 @@ html, body {
     font-family: "Montserrat", sans-serif;
     margin: 0 auto;
     text-align: center;
+    min-width:260px;
+    max-width: 100%;
     padding-bottom: 20px;
+    background-color: #57abff;
+    
 }
 
 #home-container {
 
-    margin: 0 auto;
-    min-width: 320px;
+    margin: 75px auto;
+    width: 1000px;
+    background-color: #FFFFFF;
+    padding:15px;
     
+   
+
 
 }
 
@@ -20,19 +28,21 @@ html, body {
     left: 0;
     z-index: 999;
     margin: 0 auto;
-    background-color: #333;
+    background-color: #FFFFFF;
     overflow: hidden;
     width: 100%;
-    height: 45px;
+    height: 75px;
+    
 }
 
 #navbar a {
     float: left;
-    color: #f2f2f2;
+    color: #000000;
     text-align: center;
-    padding: 14px 16px 14px 16px;
+    padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 32px;
+    height: 100%;
 }
 
 #navbar a:hover {
@@ -40,36 +50,49 @@ html, body {
     color: black;
 }
 
-#navbar a.active {
+#navbar a:active {
     background-color: #4CAF50;
     color: white;
+    border-bottom: solid 3px #000000;
 }
 
 #about-me {
 
     height: 100vh;
-    margin: 0 auto;
-    margin-top: 50vh;
+    margin: 10px auto;
     padding: 25px;
+    background-color: green;
     
 }
 
 #projects {
 
-    height: 100vh;
-    margin: 0 auto;
-    margin-top: 50vh;
-    padding: 25px;
+    display: grid;
+    height: 400px;
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    margin: 10px auto;
+}
 
+.project-grid {
+
+    text-align: center;
+    padding: 20px 0;
+    font-size: 15px;
+      
 }
 
 
 #contact {
 
-    height: 100vh;
-    margin: 0 auto;
-    margin-top: 50vh;
+    
+    margin: 10px auto;
     padding: 25px;
+    background-color: blue;
 }
 #projects a {
 
@@ -91,20 +114,22 @@ html, body {
 
 
 @media screen and (max-width: 600px) {
-    navbar a {
+    #navbar {
     
         float: none;
-        width: 95%
+        width: 95%;
 
     }
+
+    
   
 }
 
 @media screen and (max-width: 320px) {
-    navbar a {
+    #navbar {
     
         float: none;
-        width: 95%
+        width: 95%;
 
     }
   
