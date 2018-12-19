@@ -19,6 +19,7 @@ html, body {
 }
 
 #navbar {
+
     overflow: hidden;
     background-color: #f1f1f1;
     padding: 90px 10px; /* Large padding which will shrink on scroll (using JS) */
@@ -27,6 +28,7 @@ html, body {
     width: 100%;
     top: 0; /* At the top */
     z-index: 99;
+
 }
 
 #navbar a {
@@ -42,16 +44,21 @@ html, body {
 }
 
 #navbar a:hover {
+
     background-color: #ddd;
     color: black;
+
 }
 
 #navbar a.active {
+
     background-color: #1e90ff;
     color: white;
+
   }
 
   #navbar #logo {
+
     font-size: 35px;
     font-weight: bold;
     transition: 0.4s;
@@ -59,45 +66,54 @@ html, body {
 }
 
 #navbar-right {
+
     float: right;
+
   }
-
-
 
 #about-me {
 
     height: 100vh;
-    margin: 40vh auto;
-    padding: 25px;
-    
-    
-    
+    margin: 0 auto;
+            
 }
 
 #projects {
 
-    display: flex;
     flex-wrap: wrap;
+    margin-top: 300px;
     background-color: DodgerBlue;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .project-grid {
 
     background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
+    margin: 5px;
     text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-    
+    line-height: 70px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 293px;
+    width: 323px;
+    border-radius: 4px;
       
 }
 
-img.project-grid {
+.project-grid img {
 
     height: 175px;
-    width: 280px;
-    border-radius: 4px;
+    width: 300px;
+    max-width: 100%;
+    
     
 
 }
@@ -125,6 +141,14 @@ img.project-grid {
     text-decoration: none;
     color: black;
  
+}
+
+.figcaption {
+
+    background-color: DodgerBlue;
+    color: white;  
+    max-width: 100%;  
+
 }
 
 
